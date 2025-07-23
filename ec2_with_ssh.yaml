@@ -4,7 +4,7 @@ Description: Create EC2 with Security Group for SSH using existing KeyPair and V
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to SSH into instance
-    Type: AWS::EC2::KeyPair::devops-key.pem
+    Type: AWS::EC2::KeyPair::devops-key
 
   InstanceType:
     Description: EC2 instance type
